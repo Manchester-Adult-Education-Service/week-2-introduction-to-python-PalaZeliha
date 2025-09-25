@@ -15,11 +15,14 @@ print("Pizza is Alice's favourite food!")
 # Please don't touch this
 print("")
 
-print("Hello, Bob!")
-print("Bob is 30 years old.")
-print("In 5 years, Bob will be 35 years old.")
-print("Bob really likes noodles.")
-print("Noodles is Bob's favourite food!")
+name = "Zeliha"
+age = 46
+
+print(f"Hello, {name}!")
+print(f"{name} is {age} years old.")
+print(f"In 5 years, {name} will be {age} years old.")
+print(f"{name} really likes noodles.")
+print(f"Noodles is {name}'s favourite food!")
 
 # Notice there's lots of repetition!
 # If we want to change Alice's age or favourite food, we'd have to change it in many places.
