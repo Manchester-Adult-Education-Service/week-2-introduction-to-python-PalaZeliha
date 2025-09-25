@@ -58,6 +58,8 @@ print("")
 
 
 
+
+
 # -------------------------------------------
 # 💡 Extra Challenge (optional):
 # - Use input() to ask the user for their name, age, and favourite food.
@@ -69,20 +71,30 @@ print("")
 # print(f"Hello, {secondname}! Next year you will be {secondage + 1}.")
 # print(f"{secondfood.capitalize()} is your favourite food!")
 
-print("")
-secondname = "Maria"
-thirdname = "Alex"
-secondage = 28
-secondfood = "Banana"
-country = "France" 
+# print("")
+# secondname = "Maria"
+# thirdname = "Alex"
+# secondage = 28
+# secondfood = "Banana"
+# country = "France" 
 
-print(f"Hello, {secondname}! This is my friend {thirdname}")
-print(f"Hello, {thirdname}! I am from {country} ")
-print(f"{thirdname} is {secondage} and he is from {country} too .")
-print(f"In 5 years, {thirdname} will be {secondage + 5} and years old.")
-print(f"{secondname} really likes {secondfood}.")
-print(f"{secondfood.capitalize()} is {thirdname}'s favourite food!")
+print("")
+name =input ("what is your name?")
+age = int (input("How old are you"))
+food = input("What is your favorite food?")
+
+print(f"Hello, {name}! Next year  you will be {age + 1}.")
+print(f"{food.capitalize()} is {name}'s favourite food!")
+print("")
+
+# print(f"Hello, {secondname}! This is my friend {thirdname}")
+# print(f"Hello, {thirdname}! I am from {country} ")
+# print(f"{thirdname} is {secondage} and he is from {country} too .")
+# print(f"In 5 years, {thirdname} will be {secondage + 5} and years old.")
+# print(f"{secondname} really likes {secondfood}.")
+# print(f"{secondfood.capitalize()} is {thirdname}'s favourite food!")
 # Once you are done, please run the following commands (one by one) in the terminal:
 # git add Ex1_variables.py
 # git commit -m "Completed variables exericse"
 # git push origin main
+
